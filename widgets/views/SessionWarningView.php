@@ -18,9 +18,9 @@ use yii\helpers\Url;
             </div>
             <div class="modal-footer">
                 <?php if ($logoutUrl): ?>
-                    <a href="<?= Url::to($logoutUrl) ?>" class="btn btn-danger pull-left"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> <?= Yii::t('mgcode/sessionWarning', 'Logout') ?></a>
+                    <a href="<?= Url::to($logoutUrl) ?>" class="btn btn-danger pull-left"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> <?= Yii::t('dadinugroho/sessionWarning', 'Logout') ?></a>
                 <?php endif; ?>
-                <button type="button" onClick= "contTimer();" class="btn btn-success continue"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <?= Yii::t('mgcode/sessionWarning', 'Continue') ?></button>
+                <button type="button" onClick= "contTimer();" class="btn btn-success continue"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <?= Yii::t('dadinugroho/sessionWarning', 'Continue') ?></button>
             </div>
         </div>
     </div>
