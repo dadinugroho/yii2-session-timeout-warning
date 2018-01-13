@@ -1,6 +1,6 @@
 <?php
 
-namespace mgcode\sessionWarning\widgets;
+namespace dadinugroho\sessionWarning\widgets;
 
 use yii\base\Widget;
 

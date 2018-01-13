@@ -16,16 +16,16 @@ use yii\helpers\Url;
                 </div>
                 <div class="modal-footer">
                     <?php if ($logoutUrl): ?>
-                        <a href="<?= Url::to($logoutUrl) ?>" class="btn btn-default"><?= Yii::t('mgcode/sessionWarning', 'Logout') ?></a>
+                        <a href="<?= Url::to($logoutUrl) ?>" class="btn btn-default"><?= Yii::t('dadinugroho/sessionWarning', 'Logout') ?></a>
                     <?php endif; ?>
-                    <button type="button" class="btn btn-success continue"><?= Yii::t('mgcode/sessionWarning', 'Continue') ?></button>
+                    <button type="button" class="btn btn-success continue"><?= Yii::t('dadinugroho/sessionWarning', 'Continue') ?></button>
                 </div>
             </div>
         </div>
     </div>
 
 <?php
-\mgcode\sessionWarning\assets\SessionWarningAsset::register($this)
+\dadinugroho\sessionWarning\assets\SessionWarningAsset::register($this)
     ->initPlugin($this, [
         'logoutUrl' => $logoutUrl,
     ]);

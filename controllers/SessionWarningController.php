@@ -1,6 +1,6 @@
 <?php
 
-namespace mgcode\sessionWarning\controllers;
+namespace dadinugroho\sessionWarning\controllers;
 
 use yii\web\Controller;
 use yii\web\Response;

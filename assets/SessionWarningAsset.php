@@ -1,6 +1,6 @@
 <?php
 
-namespace mgcode\sessionWarning\assets;
+namespace dadinugroho\sessionWarning\assets;
 
 use Yii;
 use yii\helpers\Json;
@@ -13,7 +13,7 @@ use yii\web\View;
  */
 class SessionWarningAsset extends AssetBundle
 {
-    public $sourcePath = '@mgcode/sessionWarning/assets/files';
+    public $sourcePath = '@dadinugroho/sessionWarning/assets/files';
     public $js = [
         'js/session-warning.js',
     ];
@@ -32,7 +32,7 @@ class SessionWarningAsset extends AssetBundle
     public function initPlugin(View $view, $options = [])
     {
         $options = array_merge([
-            'message' => Yii::t('mgcode/sessionWarning', 'Your session is going to expire at {time}.')
+            'message' => Yii::t('dadinugroho/sessionWarning', 'Your session is going to expire at {time}.')
         ], $options);
 
         $json = Json::encode($options);
