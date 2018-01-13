@@ -12,7 +12,7 @@ use yii\helpers\Url;
 <div id="session-warning-modal" class="modal fade" tabindex="-1" role="dialog" data-warn-before="<?= $warnBefore; ?>" data-user-id="<?= $userId; ?>" data-extend-url="<?= Url::to($extendUrl); ?>">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
-            <div class="modal-body text-center bg-warning">
+            <div class="modal-body text-center btn-warning">
                 <h1 id="countdown" class="text-warning"></h1>
                 <div class="message"></div>
             </div>
@@ -20,7 +20,7 @@ use yii\helpers\Url;
                 <?php if ($logoutUrl): ?>
                     <a href="<?= Url::to($logoutUrl) ?>" class="btn btn-danger pull-left"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> <?= Yii::t('dadinugroho/sessionWarning', 'Logout') ?></a>
                 <?php endif; ?>
-                <button type="button" onClick= "contTimer();" class="btn btn-success continue"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <?= Yii::t('dadinugroho/sessionWarning', 'Continue') ?></button>
+                <button type="button" onClick= "contTimer();" class="btn btn-warning continue"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <?= Yii::t('dadinugroho/sessionWarning', 'Continue') ?></button>
             </div>
         </div>
     </div>

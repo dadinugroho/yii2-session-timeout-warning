@@ -1,8 +1,8 @@
 {
-    "name": "mg-code/yii2-session-timeout-warning",
+    "name": "dadinugroho/yii2-session-timeout-warning",
     "description": "Users are warned about expiring session.",
     "keywords": ["yii2", "extension", "user", "session", "timeout", "expire", "warning", "notification"],
-    "homepage": "https://github.com/mg-code/yii2-session-timeout-warning",
+    "homepage": "https://github.com/dadinugroho/yii2-session-timeout-warning",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
