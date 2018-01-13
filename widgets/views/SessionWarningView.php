@@ -12,7 +12,15 @@ use yii\helpers\Url;
 <div id="session-warning-modal" class="modal fade" tabindex="-1" role="dialog" data-warn-before="<?= $warnBefore; ?>" data-user-id="<?= $userId; ?>" data-extend-url="<?= Url::to($extendUrl); ?>">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
-            <div class="modal-body text-center btn-warning">
+
+            <div class="modal-header btn-warning">
+                <h4><?= Yii::t('dadinugroho/sessionWarning', 'Session warning') ?></h4>
+            </div>
+            <div class="modal-body text-center">
+                <h1 id="countdown" class="text-warning"></h1>
+                <div class="message"></div>
+            </div>
+            <div class="modal-body text-center">
                 <h1 id="countdown" class="text-warning"></h1>
                 <div class="message"></div>
             </div>

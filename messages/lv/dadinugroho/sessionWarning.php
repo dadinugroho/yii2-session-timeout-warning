@@ -20,4 +20,5 @@ return [
     'Continue' => 'Turpināt',
     'Logout' => 'Iziet',
     'Your session is going to expire at {time}.' => 'Sesijas laiks beigsies {time}.',
+    'Session warning' => 'Sesijas brīdinājums',
 ];

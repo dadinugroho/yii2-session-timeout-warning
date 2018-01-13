@@ -20,4 +20,5 @@ return [
     'Continue' => 'Lanjutkan',
     'Logout' => 'Keluar',
     'Your session is going to expire at {time}.' => 'Sesi ini akan berakhir pada {time}.',
+    'Session warning' => 'Peringatan sesi',
 ];
