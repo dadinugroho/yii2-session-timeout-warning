@@ -1,6 +1,12 @@
 # yii2-session-timeout-warning
 Users are warned about expiring session.
 
+
+### Differences with original code
+1. Add count down counter.
+2. Style of the modal notification.
+
+
 This is simple implementation of session timeout warning.
 Plugin does not make any ajax calls, otherwise it would not work with many projects. Components like RBAC are using user identity all time and auth session is renewed every request.
 
